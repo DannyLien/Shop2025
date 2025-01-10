@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.hank.shop" />
+                  <option name="mobileSdkAppId" value="1:224688444342:android:b010b82a3620d7d339a717" />
+                  <option name="projectId" value="shop2025-32231" />
+                  <option name="projectNumber" value="224688444342" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

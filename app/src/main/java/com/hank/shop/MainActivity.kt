@@ -9,6 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import com.google.firebase.auth.FirebaseAuth
 import com.hank.shop.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
 
+        
 
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)

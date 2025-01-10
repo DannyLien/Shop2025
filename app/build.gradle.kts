@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("kotlin-kapt")
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -45,8 +46,11 @@ dependencies {
     // Gson
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.google.code.gson:gson:2.11.0")
-    implementation(libs.okhttp)
     // com.squareup.okhttp3 , okhttp , Maven Central
+    implementation(libs.okhttp)
+    // Firebase
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.auth)
     // Room
     val room_version = "2.6.1"
     implementation("androidx.room:room-runtime:$room_version")
